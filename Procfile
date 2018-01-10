@@ -1,1 +1,1 @@
-web: java -jar target/springboot-mybatis-0.0.1-SNAPSHOT
+web: java -jar target/springboot-mybatis-0.0.1-SNAPSHOT.jar
