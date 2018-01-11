@@ -19,5 +19,5 @@ public interface CityDao {
      */
     City findByName(@Param("cityName") String cityName);
 
-    List<City> queryCity();
+    List<City> query();
 }

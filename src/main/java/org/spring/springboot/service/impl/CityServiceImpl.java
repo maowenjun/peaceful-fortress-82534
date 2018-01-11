@@ -25,7 +25,7 @@ public class CityServiceImpl implements CityService {
 
     @Override
     public List<City> queryCity() {
-        return cityDao.queryCity();
+        return cityDao.query();
     }
 
 }
