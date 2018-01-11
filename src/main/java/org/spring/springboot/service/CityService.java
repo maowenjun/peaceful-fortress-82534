@@ -2,6 +2,8 @@ package org.spring.springboot.service;
 
 import org.spring.springboot.domain.City;
 
+import java.util.List;
+
 /**
  * 城市业务逻辑接口类
  *
@@ -14,4 +16,7 @@ public interface CityService {
      * @param cityName
      */
     City findCityByName(String cityName);
+
+
+    List<City> queryCity();
 }

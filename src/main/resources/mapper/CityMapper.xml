@@ -21,4 +21,8 @@
 		where city_name = #{cityName}
 	</select>
 
+	<select id="query" resultMap="BaseResultMap">
+		select * from city
+	</select>
+
 </mapper>
